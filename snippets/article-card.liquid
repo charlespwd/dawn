@@ -16,7 +16,7 @@
   {% render 'article-card' blog: blog, article: article, show_image: section.settings.show_image %}
 {% endcomment %}
 
-{%- if article and article != empty -%}
+{%- if artticle and article != empty -%}
   {%- liquid
     assign ratio = 1
     if media_aspect_ratio != null
